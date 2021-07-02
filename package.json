@@ -1,0 +1,40 @@
+{
+  "name": "feed2pocket",
+  "version": "1.0.0",
+  "description": "Reads an Atom/RSS/RDF feed and adds the items to Pocket (getpocket.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "url"
+  },
+  "keywords": [
+    "rss",
+    "atom",
+    "rdf",
+    "feed",
+    "parser",
+    "pocket"
+  ],
+  "author": "Camilo J. Kawerin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.10.2",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.1.1",
+    "express": "~4.11.1",
+    "feedparser": "^0.19.2",
+    "jade": "~1.9.1",
+    "morgan": "~1.5.1",
+    "pocket-sdk": "0.0.10",
+    "request": "^2.53.0",
+    "serve-favicon": "~2.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camilokawerin/feed2pocket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/camilokawerin/feed2pocket/issues"
+  },
+  "homepage": "https://github.com/camilokawerin/feed2pocket"
+}
